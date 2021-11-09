@@ -1,7 +1,6 @@
 # clojure-play
 
-A Clojure library designed to ... well, that part is up to you.
-
+A cloujure playground trying out few thing in a purely functions programming language.
 ## Usage
 
 FIXME
