@@ -1,6 +1,6 @@
 # clojure-play
 
-A cloujure playground trying out few thing in a purely functions programming language.
+A clojure playground trying out few thing in a purely functions programming language.
 ## Usage
 
 FIXME
