@@ -44,3 +44,15 @@
 (my-map-v2 println ["daniel" "rapper" "mapper" "engineer"])
 
 (my-map-v2 println ["daniel" false "rapper" "mapper" "engineer"])
+
+;(my-map-v2 println (range 10000))
+
+(defn my-map-v3
+  [function collection]
+  (let [first-element (first collection)]
+    (if (not (nil? first-element))
+      (do
+        (function first-element)
+        (recur function (rest collection))))))
+
+(my-map-v3 println (range 100000000))
